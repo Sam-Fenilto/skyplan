@@ -1,0 +1,16 @@
+Theme Color - #1b3e6f
+theme opposite color - #f29d33
+
+header background color - #d8d1c9
+icon with green color - #5db424
+navbar background color - #b7ada5
+
+section circle icon color blue - #9dd5f7
+background light color - #ffffff
+
+
+head font colors dark - #555555
+
+circle with green color - #c3d621
+
+table data background color - #edf2bd

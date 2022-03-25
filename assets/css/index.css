@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --ft-family: "Montserrat", sans-serif;
+    --ft-dark-chocolate: #484543;
+    --ft-light-chocolate: #595959;
+    --ft-blue-color: #13436c;
+    --ic-green-color: #5db424;
+    --bg-dark-chocolate: #b7ada5;
+    --bg-light-chocolate: #d8d1c9;
+    --bg-dark-blue: #10416b;
+    --theme-sandal-color: #f29d33;
+    --theme-blue-color: #1b3e6f;
+}
+
+.test-outline {
+    outline: 1px solid red;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--ft-family);
+}
+header {
+    background-color: var(--bg-light-chocolate);
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.header-left {
+    width: 40%;
+    position: relative;
+}
+.header-right {
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--theme-blue-color);
+}
+.logcolor {
+    color: var(--theme-sandal-color);
+}
+
+.dropdown-margin {
+    padding-inline: 3rem;
+}
+
+.dropdown p:hover {
+    cursor: pointer;
+}
+.dropdown p {
+    color: var(--ft-blue-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.arrow-down {
+    margin-left: 0.3rem;
+}
+.header-icons-container {
+    padding-inline: 1rem;
+}
+.header-icons {
+    font-size: 1.1rem;
+    color: var(--ft-blue-color);
+}
+.header-icons:hover {
+    cursor: pointer;
+}
+.menu-dropdown-padding {
+    padding-inline: 2.5rem;
+}
+.menu-icon {
+    color: var(--ft-blue-color);
+}
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+/*----------------------------------Navigation Section css--------------------------------------------------------- */
+
+nav {
+    width: 100%;
+    background-color: var(--bg-dark-chocolate);
+}
+
+.nav-container {
+    padding: 0.5rem;
+}
+label,
+.label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--ft-blue-color);
+}
+input,
+select {
+    font-size: 0.8rem;
+    font-family: var(--ft-family);
+    height: 1.8rem;
+    padding-inline: 1rem;
+    width: 10rem;
+    border: none;
+    border-radius: 3px 3px;
+    color: var(--ft-light-chocolate);
+    font-weight: 600;
+    margin-right: 0.5rem;
+    background-color: #fbfbfb;
+}
+
+.nav-menu {
+    padding-inline: 0.5rem;
+}
+
+.go {
+    background-color: #c3d621;
+    border-radius: 50%;
+    padding-block: 0.5rem;
+    padding-inline: 0.5rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+.go p {
+    font-size: 0.8rem;
+    font-weight: 700;
+    columns: var(--ft-blue-color);
+}
+
+.reset {
+    background-color: var(--bg-dark-blue);
+    color: #fbfbfb;
+    padding-block: 0.6rem;
+    padding-inline: 0.8rem;
+    border-radius: 3px 3px;
+}
+
+/*-----------------------section coding---------------------------------------------------*/
+
+h2 {
+    color: var(--ft-dark-chocolate);
+}
+.section-container {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+}
+.section-icons-container {
+    padding-inline: 0.8rem;
+}
+.section-p {
+    color: var(--ft-blue-color);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+/*-----------------section2 code ---------------------------------------------------*/
+.section2-container {
+    justify-content: center;
+    align-items: center;
+}
+.section2-pad {
+    padding-inline: 2rem;
+}
+.section2-p {
+    color: var(--ft-dark-chocolate);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.section2-icon {
+    margin-right: 1rem;
+    color: #9dd5f7;
+}
+
+/*-------------------section3 Container--------------------------------------------*/
+
+.section3-container {
+    width: 100%;
+
+    padding-inline: 2rem;
+    padding-block: 3rem;
+}
+.section3-h2 {
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+table {
+    width: 100%;
+}
+table,
+thead,
+tbody,
+td {
+    border: 1px solid var(--bg-light-chocolate);
+    border-collapse: collapse;
+}
+thead {
+    background-color: var(--bg-dark-blue);
+}
+thead tr td span {
+}
+thead tr td span i {
+    font-size: 0.3rem;
+}
+thead tr td {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fbfbfb;
+    position: relative;
+}
+tbody tr {
+    background-color: #edf2bd;
+    height: 5rem;
+}
+tbody tr td {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--ft-dark-chocolate);
+    font-weight: 700;
+}
+tbody tr td span {
+    padding-inline: 0.5rem;
+    color: var(--bg-dark-chocolate);
+}
+
+.td1rem {
+    width: 1rem;
+}
+.td3rem {
+    width: 3rem;
+}
+.td2rem {
+    width: 2rem;
+}
+.td4rem {
+    width: 4rem;
+}
+.td5rem {
+    width: 5rem;
+}
+
+.td-down-icon {
+    color: var(--theme-sandal-color);
+}
+
+.td-pen-icon {
+    color: var(--theme-sandal-color);
+}
+.td-link-icon {
+    color: #ec6733;
+}
+.td-msg-icon {
+    color: var(--theme-sandal-color);
+}
+.td-circle-icon {
+    color: var(--theme-sandal-color);
+    font-size: 1.2rem;
+}
+.td-x-icon {
+    color: red;
+}
+
+/*-------------message dialog---------------*/
+
+.message {
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    background-color: var(--bg-dark-blue);
+    padding-inline: 1rem;
+}
+.dropup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28rem;
+    height: 2rem;
+}
+.dropup div p {
+    color: #fbfbfb;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.up-arr {
+    font-size: 1rem;
+    color: #fbfbfb;
+}
